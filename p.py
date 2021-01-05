@@ -68,7 +68,7 @@ def __target__():
         r6 = target + "/" + i
         r7 = requests.get(r6)
         if r7.status_code == 200:
-            print(Fore.GREEN + "[+] ~ " + Fore.FREEN + str(r6))
+            print(Fore.GREEN + "[+] ~ " + Fore.GREEN + str(r6))
         if r7.status_code != 200:
             print(Fore.RED + "[-] ~ " + Fore.RED + str(r6))
 __target__()
