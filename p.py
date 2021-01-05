@@ -36,14 +36,14 @@ def __target__():
             sys.exit()
     # _______________________________________________________________________
     # Target Is Word Press Or Not Word Press And Ip Target
-    r2 = requests.get(target+"/wp-content/plugins/")
-    s1 = socket.gethostbyname(target)
-    if r2.status_code == 200:
-        print(Fore.RED + "\n\nWordPress And Ip _______________________________")
-        print(Fore.GREEN + "        Your Target Is Word Press" + Fore.GREEN + "\n        Your Ip Target Is  :  " + Fore.RED + str(s1))
-    else:
-        print(Fore.RED + "\n\nNot WordPress And Ip _______________________________")
-        print(Fore.GREEN + "        Your Target Is Not Word Press" + Fore.GREEN + "\n        Your Ip Target Is  :  " + Fore.RED + str(s1))
+    #r2 = requests.get(target+"/wp-content/plugins/")
+    #s1 = socket.gethostbyname(target)
+    #if r2.status_code == 200:
+    #    print(Fore.RED + "\n\nWordPress And Ip _______________________________")
+    #    print(Fore.GREEN + "        Your Target Is Word Press" + Fore.GREEN + "\n        Your Ip Target Is  :  " + Fore.RED + str(s1))
+    #else:
+    #    print(Fore.RED + "\n\nNot WordPress And Ip _______________________________")
+    #    print(Fore.GREEN + "        Your Target Is Not Word Press" + Fore.GREEN + "\n        Your Ip Target Is  :  " + Fore.RED + str(s1))
     # ___________________________________________________________________________
     # whatweb
     r3 = requests.get("https://api.hackertarget.com/whatweb/?q=" + target).text
