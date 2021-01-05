@@ -11,7 +11,7 @@ def __target__():
     time.sleep(1)
     os.system("clear")
     time.sleep(1)
-    print(Fore.YELLO + "Hello , This Is My Bot For All Requests ;))")
+    print(Fore.BLUE + "Hello , This Is My Bot For All Requests ;))")
     time.sleep(1)
     target = input(Fore.YELLO + "\n[" + Fore.BLUE + "!" + Fore.YELLO + "]" + Fore.BLUE + " ~ " + Fore.GREEN + "Pleass Enter Domain" + Fore.RED + " ==> ")
     if target == "" or None:
