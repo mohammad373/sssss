@@ -13,7 +13,7 @@ def __target__():
     time.sleep(1)
     print(Fore.BLUE + "Hello , This Is My Bot For All Requests ;))")
     time.sleep(1)
-    target = input(Fore.YELLO + "\n[" + Fore.BLUE + "!" + Fore.YELLO + "]" + Fore.BLUE + " ~ " + Fore.GREEN + "Pleass Enter Domain" + Fore.RED + " ==> ")
+    target = input(Fore.BLUE + "\n[" + Fore.BLUE + "!" + Fore.BLUE + "]" + Fore.BLUE + " ~ " + Fore.GREEN + "Pleass Enter Domain" + Fore.RED + " ==> ")
     if target == "" or None:
         try:
             time.sleep(1)
